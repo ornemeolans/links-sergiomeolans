@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(192, 166, 95);
+    font-family:'Edu TAS Beginner', cursive;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+header img{
+    width: 100px;
+    height: 100%;
+}
+
+header h1{
+    font-family: 'Rage Italic', sans-serif;
+    font-style: inherit;
+    font-size: 40px;
+}
+
+.contact{
+    display: grid;
+    grid-template-areas: "wa"
+    "mail"
+    "instagram"
+    "facebook";
+}
+
+.wa{
+    grid-area: wa;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(190, 190, 190);
+    margin: 20px;
+    padding: 20px 0px;
+    border-radius: 0.4em;
+}
+
+.wa img{
+    width: 30px;
+    height: 30px;
+    margin: 0px 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.wa a{
+    font-size: 20px;
+    text-decoration: none;
+    width: 190px;
+    color: black;
+    margin: 0px 30px;
+}
+
+.mail{
+    grid-area: mail;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: auto;
+    background-color: rgb(190, 190, 190);
+    margin: 20px;
+    padding: 20px 0px;
+    border-radius: 0.4em;
+}
+
+.mail img{
+    width: 30px;
+    height: 30px;
+    margin: 0px 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.mail a{
+    font-size: 20px;
+    text-decoration: none;
+    width: 190px;
+    color: black;
+    margin: 0px 30px;
+}
+
+.instagram{
+    grid-area: instagram;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: auto;
+    background-color: rgb(190, 190, 190);
+    margin: 20px;
+    padding: 20px 0px;
+    border-radius: 0.4em;
+}
+
+.instagram img{
+    width: 30px;
+    height: 30px;
+    margin: 0px 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.instagram a{
+    font-size: 20px;
+    text-decoration: none;
+    width: 190px;
+    margin: 0px 30px;
+    color: black;
+}
+
+.facebook{
+    grid-area: facebook;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: auto;
+    background-color: rgb(190, 190, 190);
+    margin: 20px;
+    padding: 20px 0px;
+    border-radius: 0.4em;
+}
+
+.facebook img{
+    width: 30px;
+    height: 30px;
+    margin: 0px 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.facebook a{
+    font-size: 20px;
+    text-decoration: none;
+    width: 190px;
+    margin: 0px 30px;
+    color: black;
+}
